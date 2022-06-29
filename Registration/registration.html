@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="registration.js"></script>
+</head>
+<body>
+    <a  href="../index.html" class="previous round">&#8249;Previous</a>
+    <a  href="../Login/login.html" class="next round">Next&#8250;</a>
+    <h1>Registration</h1>
+    <p>Please fill in this form to register</p>
+    <form action="#" onsubmit="return formValidation()">
+      
+       
+                <hr><label for="fname"><b>First Name:</b></label>
+                <input type="text" name="firstname" id="ifname" required>
+                    <span style="color:red;" id="efname"></span>
+              
+
+            
+            
+                <label for="lname"><b>Last Name:</b></label>
+                <input type="text" name="lastname" id="ilname" required> 
+                    <span style="color:red;" id="elname"></span>
+
+                
+                 <label for="email"><b>Email:</b></label>
+                <input type="text" name="email" id="iemail" required> 
+                    <span style="color:red;" id="eemail"></span>
+                
+            
+            
+                <label for="mobile"><b>Mobile:</b></label>
+                <input type="text" name="mob" id="imob"  required>
+                    <span style="color:red;" id="emobile"></span>
+               
+
+            
+         
+            
+                <label for="password"><b>Password:</b> </label>
+                <input type="password" name="password" id="ipass"  required>
+                    <span style="color:red;" id="epass"></span>
+               
+            
+            
+                <label for="cpassword"><b>Confirm Password:</b></label>
+               <input type="password" name="password" id="icpass" required>
+                <span style="color:red;" id="ecpass"></span>
+        
+            
+            <hr>
+               <input type="submit" id="registerbtn" name="submit-button" value="Register">
+               
+              
+        
+    </form>
+    <p class="container signin">Already have an account? <a href="../Login/login.html">Log in</a>.</p>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+
+* {box-sizing: border-box}
+body{
+    background-image: url("../snowww.jpg");
+}
+
+.container {
+  padding: 16px;
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the login button */
+.loginbtn {
+  background-color: #0b0c0c;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginbtn:hover {
+  opacity:1;
+}
+.round {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px;
+  /*neon effect*/
+  text-shadow:
+  /*glow to outer edge of the text*/
+    0 0 7px #fff, /* horizontal shadow,vertical,size of blur radius,shadow color*/
+    0 0 10px #fff,
+    0 0 21px #fff,
+  /*wider text shadows*/
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
+
+
+  }
+  
+  .round:hover {
+    background-color: rgb(145, 89, 123);
+    color: rgb(255, 255, 255);
+  }
+
+  
+  .previous {
+    
+    color: black;
+  }
+  
+  .next {
+    color: rgb(0, 0, 0);
+  }
+  
+  .round {
+    border-radius: 10%;
+  }
